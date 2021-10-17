@@ -1,0 +1,9 @@
+[package]
+name = "tlspivot"
+version = "0.1.0"
+edition = "2018"
+author = "PinkP4nther"
+
+[dependencies]
+clap = "2.33.3"
+sslrelay = "0.6.2"
