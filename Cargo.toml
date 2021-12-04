@@ -2,7 +2,7 @@
 name = "tlspivot"
 version = "0.1.0"
 edition = "2018"
-author = "PinkP4nther"
+authors = ["PinkP4nther"]
 
 [dependencies]
 clap = "2.33.3"

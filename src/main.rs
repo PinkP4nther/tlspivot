@@ -20,8 +20,8 @@ fn main() {
     struct HandleObj;
     impl HandlerCallbacks for HandleObj{}
 
-    let certificate_embed = include_bytes!("pivot.crt");
-    let private_key_embed = include_bytes!("pivot.key");
+    let certificate_embed = include_bytes!("../pivot.crt");
+    let private_key_embed = include_bytes!("../pivot.key");
 
     let opts = parse_args();
 
